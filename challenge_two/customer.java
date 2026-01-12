@@ -6,6 +6,8 @@ public class customer {
     private String cust_name = "Gaurav Nandgowli";
 
     customer(int credit_limit, int acc_balance, String cust_name) {
+        // apply object rules here to validate input data, if any violation,obj does not
+        // exist
         this.credit_limit = credit_limit;
         this.acc_balance = acc_balance;
         this.cust_name = cust_name;
