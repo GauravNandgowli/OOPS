@@ -30,6 +30,8 @@ public class Employee extends Worker {
 
     }
 
+    Worker w = new Worker();
+
     Employee(int employee_ID,
             String hireDate, String name, String birthDate) {
         super(name, birthDate);
